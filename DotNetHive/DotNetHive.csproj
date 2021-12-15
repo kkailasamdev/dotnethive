@@ -41,7 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DesignPatterns\Decorator\Executor.cs" />
+    <Compile Include="DesignPatterns\Decorator\ExecutorDecorator.cs" />
+    <Compile Include="DesignPatterns\Decorator\IExecutor.cs" />
     <Compile Include="DesignPatterns\Singleton.cs" />
+    <Compile Include="DesignPatterns\Visitor\Animal.cs" />
+    <Compile Include="DesignPatterns\Visitor\Bear.cs" />
+    <Compile Include="DesignPatterns\Visitor\IAnimalVisitor.cs" />
+    <Compile Include="DesignPatterns\Visitor\Lion.cs" />
     <Compile Include="Helpers\ExecutionTimeLogger.cs" />
     <Compile Include="Helpers\Retrier\IRetrier.cs" />
     <Compile Include="Helpers\Retrier\Retrier.cs" />
