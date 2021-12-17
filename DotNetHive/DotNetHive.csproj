@@ -52,6 +52,7 @@
     <Compile Include="Helpers\ExecutionTimeLogger.cs" />
     <Compile Include="Helpers\Retrier\IRetrier.cs" />
     <Compile Include="Helpers\Retrier\Retrier.cs" />
+    <Compile Include="Helpers\StringExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
